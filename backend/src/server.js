@@ -31,7 +31,7 @@ app.use(fileupload({
     tempFileDir: path.join(__dirname, "tmp"),
     createParentPath: true,
     limits: {
-        fileSize: 10 * 1024 * 1024 //10mb max file size
+        fileSize: 30 * 1024 * 1024 //10mb max file size
     }
 }))
 
