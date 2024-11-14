@@ -1,6 +1,5 @@
 import { useMusicStore } from "@/stores/useMusicStore"
 import FeaturedGridSkeleton from "./skeletons/FeaturedGridSkeleton"
-import { FileVideo } from "lucide-react"
 import PlayButton from "./PlayButton"
 
 const FeaturedSection = () => {
